@@ -1,8 +1,7 @@
 # M-CLAUD: MultiCloud Log & MITRE ATT&CK Customizable Unified Dashboard
----
 
 ## 1.Our Goal
----
+
 Integrated analysis of log data generated in a multi-cloud environment to identify security threats based on MITRE ATT&CK, and provision of customized information using RBAC to enable real-time monitoring and response by users and administrators according to their security needs
 
 ![연구 묵표](https://github.com/user-attachments/assets/bbeadbf1-d78d-4ebd-b694-e7094420f1a9)
@@ -56,4 +55,9 @@ Integrated analysis of log data generated in a multi-cloud environment to identi
 ### 5.2 Security Admin
 
 ![image](https://github.com/user-attachments/assets/7fd7a30a-7d54-4121-9f24-ca049350cdc2)
+
+### 5.3 Time series based threat detection visualization
+
+![image (11)](https://github.com/user-attachments/assets/f9de1cdd-153f-494f-bdff-cddf5613c207)
+
 
