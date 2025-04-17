@@ -37,7 +37,8 @@
 
 ## II. MONILOG DESIGN
 
-![image.png](image.png)![image](https://github.com/user-attachments/assets/676f599e-0659-4dae-9133-ed44f138c892)
+![image](https://github.com/user-attachments/assets/6c0d82aa-bbbe-49f6-b472-2fba7492ba11)
+
 
 
 대규모 시스템은 종종 여러 개의 소프트웨어로 구성되어 있습니다. 이러한 **복합적인 구조**로 인해, 시스템은 **다양한 로그 소스**에 연결되어 있습니다. 예를 들어 **3DS OUTSCALE**에서는 하나의 시스템이 **24개의 서로 다른 로그 소스**와 연결되어 있으며, **매초 수백만 줄의 로그를 생성**합니다.
@@ -54,7 +55,7 @@ MoniLog의 목표 출력은 분류된 이상(anomalies)들의 스트림이며, �
 
 ## III. LOG-BASED ANOMALY DETECTION
 
-![image.png](image%201.png)
+![image 1](https://github.com/user-attachments/assets/506010ab-2c8f-4fa4-8843-beed197a7a4d)
 
 프로그램은 일반적으로 고정된 흐름(flow)에 따라 실행되며, 로그는 이러한 실행 순서에 따라 생성됩니다. 로그와 관련된 이상 이벤트는 **크게 두 가지 유형**으로 나눌 수 있습니다:
 
@@ -146,7 +147,7 @@ LSTM 네트워크는 고정 길이 벡터(fixed-length vector)를 입력으로 �
 
 - **헤더(HEADER)**: 타임스탬프(timestamp), 중요도 수준(criticality level), 소스(source) 등과 같은 다양한 필드로 구성되어 있다.
 
-![image.png](image%202.png)
+![image 2](https://github.com/user-attachments/assets/dfea1362-d6b1-4565-a398-3a471ac9c952)
 
 - **메시지(MESSAGE)**: 형식 제약이 없는 텍스트 필드로, 자유 텍스트에 **XML 또는 JSON 형식의 데이터**를 연결(concatenate)하여 **추가 정보를 포함**시킬 수 있다.
 
@@ -206,7 +207,7 @@ LSTM 네트워크는 고정 길이 벡터(fixed-length vector)를 입력으로 �
 
 표 I에서, 로그 메시지 **L1과 L2**는 각각 **7개**와 **8개**의 토큰을 가지고 있다.
 
-![image.png](image%203.png)
+![image 3](https://github.com/user-attachments/assets/f3b02b56-6fa2-49be-b3d4-c4414b398bbd)
 
 n개의 파싱된 로그라인 집합(pool)을 고려할 때,
 
@@ -227,7 +228,7 @@ n개의 파싱된 로그라인 집합(pool)을 고려할 때,
 1. 우선, 해당 컴포넌트는 **자신이 배치된 환경에서 일정량의 로그라인(loglines)을 수집**한다.
 2. 그 후, **비지도 기반 평가 지표를 활용하여 자신의 성능을 추정**함으로써 파라미터 값을 보정(calibrate)한다.
 
-![image.png](image%204.png)
+![image 4](https://github.com/user-attachments/assets/b20854e8-f088-4ae7-97db-d9ca398654e4)
 
 1. **최적의 파라미터 값이 탐지되면**, 로그 파싱을 시작한다.
 
