@@ -1,6 +1,5 @@
 # MoniLog: An Automated Log-Based Anomaly Detction System for Cloud Computing Infrastures
 
----
 
 ## Abstract
 
