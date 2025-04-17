@@ -37,7 +37,8 @@
 
 ## II. MONILOG DESIGN
 
-![image.png](image.png)
+![image.png](image.png)![image](https://github.com/user-attachments/assets/676f599e-0659-4dae-9133-ed44f138c892)
+
 
 대규모 시스템은 종종 여러 개의 소프트웨어로 구성되어 있습니다. 이러한 **복합적인 구조**로 인해, 시스템은 **다양한 로그 소스**에 연결되어 있습니다. 예를 들어 **3DS OUTSCALE**에서는 하나의 시스템이 **24개의 서로 다른 로그 소스**와 연결되어 있으며, **매초 수백만 줄의 로그를 생성**합니다.
 
