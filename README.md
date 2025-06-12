@@ -18,7 +18,7 @@ Integrated analysis of log data generated in a multi-cloud environment to identi
 - Users can proactively understand and prepare for potential attack paths thanks to automated threat mapping and scenario prediction using MITRE ATT&CK and GNN
 - Dashboard allows users to focus on what matters most to them, enabiling efficient, real-time monitoring and response
 
-![image](https://github.com/user-attachments/assets/4184d3f0-ea2d-4c8b-ad6b-f71e748eb414)
+![Image](https://github.com/user-attachments/assets/39a0eb0c-f4a4-44a9-8d72-aeec7da58d03)
 
 ## 4. Expected dashboard configuration screen
 
@@ -29,10 +29,10 @@ Integrated analysis of log data generated in a multi-cloud environment to identi
 
 ### 4.2 Time series based threat detection visualization
 
-![image](https://github.com/user-attachments/assets/7fd7a30a-7d54-4121-9f24-ca049350cdc2)
+![Image](https://github.com/user-attachments/assets/30a67052-1819-4c98-b021-f71c490ed8a5)
 
 ### 4.3 Predicted attack scenario visualization
 
-![image (11)](https://github.com/user-attachments/assets/f9de1cdd-153f-494f-bdff-cddf5613c207)
+![Image](https://github.com/user-attachments/assets/01c27015-4dba-4b19-86be-9aa4552e2561)
 
 
