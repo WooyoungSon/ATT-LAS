@@ -11,7 +11,7 @@ Integrated analysis of log data generated in a multi-cloud environment to identi
 - Beyond merely detecting ongoing threats, the system enables proactive threat recognition by modeling potential future attack stages as scenario-based progressions.
 
   
-![image](https://github.com/user-attachments/assets/0aecb62f-0be3-49d4-a9fc-d29e76613efd)
+![Image](https://github.com/user-attachments/assets/0c1058a4-7818-4d74-94c0-79a28fec0d00)
 
 ## 3.  Advantages of the Proposed System
 - Users can gain a unified view of security threats across AWS, GCP, Azure through normalized log data in a single platform
@@ -24,7 +24,7 @@ Integrated analysis of log data generated in a multi-cloud environment to identi
 
 ### 4.1 Security Admin
 
-![image](https://github.com/user-attachments/assets/575aeaef-276d-4bb3-8d34-2af663bc3f5f)
+![Image](https://github.com/user-attachments/assets/cfc9ce7a-3524-4a9a-8b3f-3eb66ee18bc6)
 
 
 ### 4.2 Time series based threat detection visualization
